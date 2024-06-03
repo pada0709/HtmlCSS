@@ -1,5 +1,6 @@
 @import "reset.css";
 @import 'status-bar.css';
+@import "nav-bar.css";
 
 body {
     font-family: 'Courier New', Courier, monospace;
