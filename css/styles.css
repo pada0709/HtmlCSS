@@ -1,6 +1,11 @@
 @import "reset.css";
 @import 'status-bar.css';
 @import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
+@import "variables.css";
+@import "badge.css";
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -62,4 +67,8 @@ body {
     text-decoration: none;
     color:inherit;
     font-size: 13px;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
