@@ -8,6 +8,14 @@
     align-items: center;
 }
 
+.user-component__column:last-child {
+    flex-direction: column;
+}
+
+.user-component__column:last-child div {
+    margin-left: 18px;
+}
+
 .user-component__avatar {
     width: 70px;
     height: 70px;
