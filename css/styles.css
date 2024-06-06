@@ -9,6 +9,8 @@
 @import "find.css";
 @import "icon-row.css";
 @import "more.css";
+@import "alt-screen-header.css";
+@import "chat.css";
 
 body {
     font-family: 'Courier New', Courier, monospace;

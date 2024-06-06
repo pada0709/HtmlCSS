@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <div><</div>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Dahyun</h1>
+        </div>
+        <div class="alt-header__column">
+            <div>S</div>
+            <div>=</div>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thursday, June 06, 2024
+        </div>
+
+        <div class="message-row">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMjVfMTk2%2FMDAxNzA4ODYwMDEyNTA0.2s7L5CFKOpY33IXsEf-zblMrR-MMsVMrv41cEVKrHeog.jxk4RAqiEPu8qvAjSu9gH4oHmyxjDXqKSB16nMTDZwIg.PNG%2F%25BB%25DA%25C0%25CC%25C2%25AF%25B1%25B8.png&type=sc960_832" />
+            <div class="message-row__content">
+                <span class="message__author">Dahyun</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <span>+</span>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <span>@</span>
+            <button><span>!</span></button>
+        </div>
+    </form>
+</body>
+</html>
